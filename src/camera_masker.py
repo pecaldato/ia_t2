@@ -43,7 +43,7 @@ class CameraMasker():
 
             # Provide a download button
             st.download_button(
-                label="Download Image",
+                label="Download Captured Image",
                 data=img_buffer,
                 file_name="masked_image.png",
                 mime="image/png"
